@@ -1,0 +1,53 @@
+DISTRIBUIDORAMIX
+├── 📁 Web Pages (Pasta Raiz Web)
+│   ├── 📁 Assets (Imagens e Recursos Estáticos)
+│   │   ├── 📁 ProdutosInseridos (Fotos carregadas via upload)
+│   │   └── 📄 Logo.png
+│   ├── 📁 BD (Scripts do Banco de Dados)
+│   │   └── 📄 BancoDeDados.sql
+│   ├── 📁 CSS (Folhas de Estilo)
+│   │   ├── 📄 AdminHome.css
+│   │   ├── 📄 CadastrarProduto.css
+│   │   ├── 📄 Global.css
+│   │   ├── 📄 Index.css
+│   │   └── 📄 Login.css
+│   ├── 📁 JS (Scripts Clientes)
+│   │   ├── 📄 CadastrarProduto.js
+│   │   ├── 📄 CadastrarUsuario.js
+│   │   ├── 📄 Index.js
+│   │   └── 📄 Script.js
+│   ├── 📁 JSP (Páginas Dinâmicas)
+│   │   ├── 📄 AcoesProduto.jsp
+│   │   ├── 📄 AdminHome.jsp
+│   │   ├── 📄 CadastrarProduto.jsp
+│   │   ├── 📄 CadastrarUsuario.jsp
+│   │   ├── 📄 Carrinho.jsp
+│   │   ├── 📄 EsqueciSenha.jsp
+│   │   ├── 📄 ListarProdutos.jsp
+│   │   └── 📄 Login.jsp
+│   ├── 📁 META-INF
+│   │   └── 📄 context.xml (Configuração de JNDI/Recursos)
+│   ├── 📁 WEB-INF
+│   │   ├── 📁 lib (Bibliotecas JAR - JSTL, MySQL Connector)
+│   │   └── 📄 web.xml (Descritor de Implantação)
+│   └── 📄 Index.jsp (Página Principal)
+│
+├── 📁 Source Packages (Lógica Java)
+│   ├── 📁 controller (Servlets - Controle de Fluxo)
+│   │   ├── 📄 CadastrarUsuarioServlet.java
+│   │   ├── 📄 InserirProdutoServlet.java
+│   │   ├── 📄 LoginUsuarioServlet.java
+│   │   ├── 📄 LogoutServlet.java
+│   │   └── 📄 RecuperarSenhaServlet.java
+│   └── 📁 model (Classes de Entidade/POJO)
+│       └── 📄 Produto.java
+│
+├── 📁 Libraries (Dependências do Projeto)
+│   ├── 📄 JDK 24
+│   ├── 📄 Apache Tomcat (Servidor de Aplicação)
+│   ├── 📄 mysql-connector-j-9.5.0.jar (Driver do Banco)
+│   └── 📄 JSTL 1.2.7 (Tags Standard para JSP)
+│
+└── 📁 Configuration Files
+    ├── 📄 MANIFEST.MF
+    └── 📄 web.xml
