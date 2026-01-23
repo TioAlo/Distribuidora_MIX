@@ -1,3 +1,4 @@
+-- COPIE E COLE NO MY SQL
 -- 1. Criação do Banco de Dados (opcional se já existir)
 CREATE DATABASE IF NOT EXISTS distribuidora_mix;
 USE distribuidora_mix;
